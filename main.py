@@ -9,7 +9,7 @@ targets = []
 
 
 def tap(x, y):
-    """Respond to screen tap."""
+    """Respond to screen tap ."""
     if not inside(ball):
         ball.x = -199
         ball.y = -199
